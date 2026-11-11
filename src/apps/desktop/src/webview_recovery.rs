@@ -254,21 +254,21 @@ mod windows {
 
     fn show_escape_dialog(app: tauri::AppHandle) {
         log::error!("Automatic WebView2 recovery budget exhausted; requesting user action");
-        let labels = crate::desktop_locale::DesktopNativeLabels::for_app(&app);
-        let restart_label = labels.webview_recovery_restart_button.to_string();
         app.dialog()
-            .message(labels.webview_recovery_message)
-            .title(labels.webview_recovery_title)
+            .message(
+                "OpenBitFun's display stopped responding and automatic recovery was paused to avoid a restart loop. Restart OpenBitFun now?",
+            )
+            .title("OpenBitFun display recovery")
             .kind(MessageDialogKind::Error)
             .buttons(MessageDialogButtons::OkCancelCustom(
-                restart_label.clone(),
+                "Restart OpenBitFun".to_string(),
                 "Exit".to_string(),
             ))
             .show_with_result(move |result| match result {
                 MessageDialogResult::Ok | MessageDialogResult::Yes => {
                     request_user_restart(&app)
                 }
-                MessageDialogResult::Custom(label) if label == restart_label => {
+                MessageDialogResult::Custom(label) if label == "Restart OpenBitFun" => {
                     request_user_restart(&app)
                 }
                 _ => {

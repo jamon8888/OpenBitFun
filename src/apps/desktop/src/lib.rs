@@ -26,7 +26,6 @@ mod builtin_browser_host;
 pub mod computer_use;
 pub mod crash_diagnostics;
 pub mod desktop_cards;
-pub mod desktop_locale;
 mod embedded_relay_host;
 pub mod frontend_workbench;
 pub mod logging;
