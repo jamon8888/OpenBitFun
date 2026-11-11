@@ -131,7 +131,36 @@
       "unavailable": "La compilation LaTeX nécessite un hôte Desktop Alex pris en charge et un espace de travail ouvert.",
       "compileFailed": "Échec de la compilation. Voir le journal",
       "stalePreview": "Échec de la compilation. Affichage du dernier PDF réussi",
-      "saveFailed": "La source n’a pas pu être enregistrée. Enregistrez vos modifications avant de compiler."
+      "saveFailed": "La source n’a pas pu être enregistrée. Enregistrez vos modifications avant de compiler.",
+      "source": "Source LaTeX",
+      "panes": "Panneaux d’écriture",
+      "undo": "Annuler la modification de la source",
+      "redo": "Rétablir la modification de la source",
+      "insert": "Insérer",
+      "find": "Rechercher / remplacer",
+      "logs": "Journaux de compilation",
+      "save": "Enregistrer",
+      "outline": "Plan du document",
+      "outlineEmpty": "Ajoutez des sections pour naviguer dans votre document.",
+      "mainFile": "Fichier TeX principal",
+      "mainFileHint": "Compiler cette entrée du projet. Les chemins relatifs se résolvent à côté de cette source ; % !TeX root est aussi pris en charge.",
+      "closeSource": "Fermer le panneau source",
+      "closePdf": "Fermer le panneau PDF",
+      "closeLogs": "Fermer les journaux de compilation",
+      "compileSuccess": "Compilation terminée avec succès.",
+      "noLogs": "Compilez pour voir les diagnostics ici.",
+      "panesClosed": "Les panneaux source et PDF sont fermés. Vos modifications sont conservées.",
+      "restorePanes": "Ouvrir source et PDF",
+      "snippets": {
+        "section": "Section",
+        "equation": "Équation",
+        "figure": "Figure",
+        "table": "Tableau",
+        "cite": "Citation",
+        "reference": "Référence croisée",
+        "bibliography": "Bibliographie",
+        "itemize": "Liste à puces"
+      }
     },
     "pdfViewer": {
       "loading": "Chargement du PDF...",
@@ -145,7 +174,8 @@
       "zoomOut": "Zoom arrière",
       "zoomLevel": "Niveau de zoom",
       "zoomIn": "Zoom avant",
-      "rotate90": "Pivoter de 90°"
+      "rotate90": "Pivoter de 90°",
+      "fitWidth": "Ajuster à la largeur de la page"
     },
     "meditor": {
       "placeholder": "Saisissez du Markdown...",
@@ -232,6 +262,51 @@
       "selectLanguageModeHint": "Sélectionner le mode de langage (cliquez pour changer)",
       "indentOptionSpaces": "Espaces : {{n}}",
       "indentOptionTab": "Tabulation : {{n}}"
+    },
+    "pdfReview": {
+      "tools": "Outils d’annotation PDF",
+      "select": "Sélectionner le texte",
+      "highlight": "Surligner",
+      "note": "Note",
+      "ink": "Dessiner",
+      "color": "Couleur d’annotation",
+      "colors": {
+        "yellow": "Jaune",
+        "green": "Vert",
+        "blue": "Bleu",
+        "pink": "Rose"
+      },
+      "undo": "Annuler l’annotation",
+      "redo": "Rétablir l’annotation",
+      "comments": "Notes et commentaires",
+      "closeComments": "Fermer les commentaires",
+      "savePdf": "Enregistrer le PDF",
+      "export": "Exporter le PDF annoté",
+      "saving": "Enregistrement…",
+      "saved": "Annotations enregistrées dans l’espace de travail",
+      "unsaved": "Annotations non enregistrées",
+      "savedFile": "Enregistré : {{path}}",
+      "exported": "PDF annoté exporté.",
+      "saveFailed": "Impossible d’enregistrer les annotations. Vos modifications sont conservées.",
+      "empty": "Sélectionnez du texte pour le surligner, cliquez sur une page pour laisser une note, ou dessinez sur le PDF.",
+      "page": "Page {{page}}",
+      "commentPlaceholder": "Écrire un commentaire…",
+      "addComment": "Commenter",
+      "resolve": "Résoudre le fil",
+      "reopen": "Rouvrir le fil",
+      "remove": "Supprimer l’annotation",
+      "recompiled": "Le PDF a été recompilé. Les annotations sont conservées par page ; vérifiez leurs positions avant d’enregistrer.",
+      "hints": {
+        "highlight": "Sélectionnez du texte dans le PDF pour le surligner.",
+        "note": "Cliquez sur une position du PDF pour ajouter une note.",
+        "ink": "Glissez sur le PDF pour dessiner. Utilisez Annuler pour supprimer le dernier trait."
+      },
+      "editComment": "Modifier le commentaire",
+      "saveComment": "Enregistrer le commentaire",
+      "replaceTitle": "Remplacer le PDF annoté ?",
+      "replaceMessage": "La destination existe déjà ou a changé en dehors de cet éditeur : {{path}}. Remplacer cette version par votre révision en cours ?",
+      "replace": "Remplacer cette version",
+      "cancel": "Annuler"
     }
   },
   "terminal": {

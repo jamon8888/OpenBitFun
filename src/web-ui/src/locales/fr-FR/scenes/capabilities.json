@@ -407,12 +407,7 @@
             "items": {
               "built-in-appearance": "Choisir l’apparence système, claire, sombre, monochrome, Midnight, China, Cyber, Slate, Tokyo Night et autres apparences intégrées",
               "language": "Basculer entre chinois simplifié, chinois traditionnel, anglais et autres langues d’interface prises en charge",
-              "ui-font-size": "Ajuster la taille globale de la police de l’interface, y compris des valeurs personnalisées en pixels",
-              "local-packages": "Importer, prévisualiser, appliquer, exporter et supprimer des paquets d’apparence locaux",
-              "appearance-market": "Parcourir, rechercher, filtrer, installer et mettre à jour des apparences depuis le marché Skin",
-              "agent-market-submit": "Permettre à un agent de soumettre un paquet d’apparence local à la revue du marché Skin sur demande explicite",
-              "market-submissions": "Consulter et retirer vos soumissions au marché des apparences",
-              "market-review": "Si vous y êtes autorisé, consulter puis approuver ou rejeter les soumissions d’apparences"
+              "ui-font-size": "Ajuster la taille globale de la police de l’interface, y compris des valeurs personnalisées en pixels"
             }
           },
           "pet": {
