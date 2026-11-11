@@ -1,0 +1,57 @@
+{
+  "contentWidth": {
+    "title": "Largeur du contenu de la conversation",
+    "label": "Largeur préférée",
+    "description": "Minimum {{min}} px. La largeur affichée s’adapte au panneau en laissant un espace sur les deux bords. Faites glisser l’un des bords du contenu pour l’ajuster ; votre préférence est mémorisée sur cet appareil.",
+    "reset": "Rétablir la valeur par défaut",
+    "decrease": "Réduire la largeur de la conversation",
+    "increase": "Augmenter la largeur de la conversation"
+  },
+  "title": "Apparence",
+  "subtitle": "Ajustez les thèmes et la taille de la police",
+  "sessionPanel": {
+    "title": "Panneau de session",
+    "displayMode": "Disposition du panneau",
+    "split": "Côte à côte",
+    "overlay": "Superposition"
+  },
+  "sidebar": {
+    "title": "Barre latérale gauche",
+    "reset": "Rétablir les valeurs par défaut",
+    "alwaysVisible": "Toujours visible",
+    "pinned": "Pages épinglées",
+    "empty": "Aucune page supplémentaire épinglée",
+    "available": "Pages disponibles",
+    "moveUp": "Monter {{name}}",
+    "moveDown": "Descendre {{name}}",
+    "remove": "Désépingler {{name}}",
+    "addEntry": "Épingler {{name}}",
+    "noResults": "Aucune page à ajouter",
+    "saveFailed": "Les modifications n’ont pas pu être enregistrées. Votre disposition précédente reste en usage. Réessayez.",
+    "readFailed": "Les préférences de navigation enregistrées n’ont pas pu être lues par cette version. Elles ont été conservées. Rétablissez les valeurs par défaut pour les remplacer."
+  },
+  "theme": {
+    "title": "Apparence",
+    "nativeName": "OpenBitFun par défaut",
+    "nativeDescription": "Choisir un thème intégré",
+    "builtinTheme": "Thème intégré",
+    "description": "Ajuster les thèmes et la taille du texte"
+  },
+  "skin": {
+    "title": "Packs de skins visuels",
+    "description": "Importez un pack de skin généré à partir d’une image de référence. Il modifie le langage visuel de tout l’espace de travail tout en conservant la structure du produit.",
+    "import": "Importer un pack de skin",
+    "importing": "Importation…",
+    "empty": "Aucun pack de skin importé pour le moment.",
+    "generated": "Thème visuel généré",
+    "previewAlt": "Aperçu de {{name}}",
+    "preview": "Aperçu",
+    "previewing": "Aperçu en cours",
+    "cancelPreview": "Annuler l’aperçu",
+    "activate": "Utiliser ce skin",
+    "active": "Actif",
+    "remove": "Supprimer le skin",
+    "error": "Échec de l’opération sur le skin : {{message}}",
+    "invalidRecord": "Enregistrement de skin invalide : {{key}}"
+  }
+}
